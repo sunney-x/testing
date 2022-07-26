@@ -95,6 +95,9 @@ export async function run() {
     console.log(chalk.bgBlueBright(`    TOTAL ${total}   `));
     console.log(chalk.bgGreenBright(`    PASS ${passes}   `));
     console.log(chalk.bgRedBright(`    FAIL ${fails}   `));
+    if (fails > 0) {
+      process.exit(1);
+    }
   });
 }
 
