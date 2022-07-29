@@ -1,13 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sunney/testing': ^1.0.0
   '@types/node': ^18.6.1
   chalk: '4'
   typescript: ^4.7.4
 
 dependencies:
-  '@sunney/testing': 1.0.0
   chalk: 4.1.2
 
 devDependencies:
@@ -15,12 +13,6 @@ devDependencies:
   typescript: 4.7.4
 
 packages:
-
-  /@sunney/testing/1.0.0:
-    resolution: {integrity: sha512-mVSUXCTj9on5ZN+gUY9BxRu+MnvfwyrMKqxmtG4eRW8boYIsVnZ4hlDaPuArhlr8Gyn9GvbUR6EH5KP2Ea95yw==}
-    dependencies:
-      chalk: 4.1.2
-    dev: false
 
   /@types/node/18.6.1:
     resolution: {integrity: sha512-z+2vB6yDt1fNwKOeGbckpmirO+VBDuQqecXkgeIqDlaOtmKn6hPR/viQ8cxCfqLU4fTlvM3+YjM367TukWdxpg==}
